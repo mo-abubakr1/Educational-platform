@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="data:image/png;base64,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"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Teach English Language</title>
+    
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">MO</a>
+        <div class="buttons">
+            <a href="#menu">menu</a>
+            <a href="#videos">videos</a>
+            <a href="#sheets">sheets</a>
+            <a href="#contant">contant</a>
+        </div>
+    </header>
+    <section class="main">
+        <div>
+            <h2>Hello, I'm Mohammed Abu Bakr<br><span>English Teacher</span></h2>
+            <h3>I explain english languge, And make it very simple</h3>
+            <a href="#videos" class="main-botton">View my videos </a>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div> 
+        </div>
+    </section>
+    <section class="cards" id="menu">
+        <h2 class="menu-title">menu</h2>
+        <div class="content">
+            <div class="card">
+            <div class="icon">
+                <i class="fa-solid fa-a"></i>
+            </div>
+            <div class="info">
+                <h3>Preparatory stage</h3>
+                <p>I will help you to be better in english and explain lessons by simple style</p>
+            </div>
+            </div>
+            <div class="card">
+            <div class="icon">
+                <i class="fa-solid fa-b"></i>
+            </div>
+            <div class="info">
+                <h3>Secondary stage</h3>
+                <p>I will help you to be better in english, explain lessons by simple style and follow you first </p>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="videos" id="videos">
+        <h2 class="title">videos</h2>
+        <div class="content">
+            <div class="videos-card">
+            <div class="videos-image">
+                <img src="images/pronouns.jpg" alt="">
+            </div>
+            <div class="videos-info">
+                <p class="videos-category">شرح انواع الضمائر</p>
+                <strong class="videos-title">
+                    <span>pronouns</span>
+                    <a href="#" class="more-details">more-details</a>
+                </strong>
+            </div>
+            </div>
+            <div class="videos-card">
+                <div class="videos-image">
+                    <img src="images/auxiliary verb.jpg" alt="">
+                </div>
+                <div class="videos-info">
+                    <p class="videos-category">شرح الافعال المساعدة ووظيفتها وانواعها</p>
+                    <strong class="videos-title">
+                        <span>Auxiliary verbs</span>
+                        <a href="#" class="more-details">more-details</a>
+                    </strong>
+                </div>
+                </div>
+                <div class="videos-card">
+                    <div class="videos-image">
+                        <img src="images/PRESENT SIMPLE.png" alt="">
+                    </div>
+                    <div class="videos-info">
+                        <p class="videos-category">شرح زمن المضارع البسيط وكلماته الداله </p>
+                        <strong class="videos-title">
+                            <span>present simple</span>
+                            <a href="#" class="more-details">more-details</a>
+                        </strong>
+                    </div>
+                    </div>
+    </section>
+    <section class="sheets" id="sheets">
+        <h2 class="title">sheets</h2>
+        <div class="content">
+            <div class="sheets-card">
+            <div class="sheets-image">
+                <img src="images/SHEET1.png" alt="">
+            </div>
+            <div class="sheets-info">
+                <p class="sheets-category">تمارين علي انواع الضمائر</p>
+                <strong class="sheets-title">
+                    <span>pronouns</span>
+                    <a href="#" class="more-details">START NOW</a>
+                </strong>
+            </div>
+            </div>
+            <div class="sheets-card">
+                <div class="sheets-image">
+                    <img src="images/SHEET2.png" alt="">
+                </div>
+                <div class="sheets-info">
+                    <p class="sheets-category">تمارين علي الافعال المساعدة ووظيفتها وانواعها</p>
+                    <strong class="sheets-title">
+                        <span>Auxiliary verbs</span>
+                        <a href="#" class="more-details">START NOW</a>
+                    </strong>
+                </div>
+                </div>
+                <div class="sheets-card">
+                    <div class="sheets-image">
+                        <img src="images/SHEET3.png" alt="">
+                    </div>
+                    <div class="sheets-info">
+                        <p class="sheets-category">تمارين على زمن المضارع البسيط وكلماته الداله </p>
+                        <strong class="sheets-title">
+                            <span>present simple</span>
+                            <a href="#" class="more-details">START NOW</a>
+                        </strong>
+                    </div>
+                    </div>
+    </section>
+    <section class="contant" id="contant">
+        <h2 class="title">contant</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="info">
+                    <h3>Phone</h3>
+                    <p>+20100000000</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h3>Email</h3>
+                    <p>momoabobaker4@gmail.com</p>
+                </div>
+        </div>
+    </section>
+
+    <Footer class="footer">
+        <p class="footer-title">copyright@ <span>mohammed abu bakr</span></p>
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </Footer>
+</body>
+</html>
